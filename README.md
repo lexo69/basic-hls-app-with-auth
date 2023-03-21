@@ -1,4 +1,4 @@
-## Basic HLS 'streaming' app with authorization written in Go as a prof of concept.
+## Basic HLS 'streaming' app with authorization written in Go as a proof of concept.
 
 ```console
 curl -X POST http://127.0.0.1:9000/playlist -d '{"login":"test","password":"12345"}' -H "Content-Type: application/json"
